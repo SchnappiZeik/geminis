@@ -13,12 +13,12 @@ st.write("# Welcome to Gemini Streamlit! 👋")
 
 st.markdown(
 '''    
-    Gemini demo
+    周家聪是个卤蛋 demo
 '''
 )
 
 if "key" not in st.session_state:
-    st.session_state.key = None
+    st.session_state.key = AIzaSyCdpYQPwhUEaPQHnMn0s3kk9N5qOsVw64c
     
 key = st.sidebar.text_input("Your key", type="password")
 if not key:
