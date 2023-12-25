@@ -18,7 +18,7 @@ st.markdown(
 )
 
 if "key" not in st.session_state:
-    st.session_state.key = NONE
+    st.session_state.key = None
     
 key = st.sidebar.text_input("Your key", type="password")
 if not key:
